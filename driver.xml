@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>driver.xml file</comment>
+	
+	<!-- 마크업 언어 주석 -->
+	<!-- ctrl + shift + / -->
+	
+	<!-- entry : K:V 한 쌍 -->
+	<!-- 태그 사이에 들어오는게 Value 다 문자열로 인식함-->
+	<!-- <entry key ="driver">  oracle.jdbc.driver.OracleDriver</entry>-->
+	<!--  위에 처럼 띄어쓰기가 들어가면 띄어쓰기까지 인식해서 오류 -->
+	<entry key ="driver">oracle.jdbc.driver.OracleDriver</entry>
+	<entry key ="url">jdbc:oracle:thin:@localhost:1521:xe</entry>
+	<entry key ="user">member_ej</entry>
+	<entry key ="password">member1234</entry>
+	
+	<!--  자바로 가지고 돌아가기 때문에 띄어쓰기 x -->
+	
+	  
+</properties>
